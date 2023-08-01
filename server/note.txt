@@ -1,0 +1,24 @@
+//things done in the server
+
+1. to generate package.json inside server folder
+    - npm install -y
+
+2. install dependacies
+    - npm install cors dotenv express nodemon openai
+
+3. get the api key from openai.com (need to make account)
+
+4. can open the examples tab, search for 'code'
+
+5. choose the 'Natural language to OpenAI API'
+
+6. the model used is the text-davinci-003, can click 'view code' to see code snippet
+
+7. in package.json
+    - "type": "module" //allow the use of imports
+    - "server": "nodemon server" //easy call when scripts is called
+
+8. the run the server
+    - npm run server
+    - npm run dev (for the client side)
+

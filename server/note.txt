@@ -18,7 +18,9 @@
     - "type": "module" //allow the use of imports
     - "server": "nodemon server" //easy call when scripts is called
 
-8. the run the server
+8. run the server
     - npm run server
-    - npm run dev (for the client side)
+
+9. run the client
+    - npm run dev
 
